@@ -5,7 +5,7 @@ test('create project via UI and see in list with manager', async ({ page }) => {
 
   await page.getByPlaceholder('Project name').fill('E2E Project');
   await page.getByPlaceholder('Description').fill('E2E description');
-  // Manager select is optional; pick first option if available
+  // Manager select é opcional, pega a primeira opção se disponível
   const managerSelect = page.locator('select').first();
   const hasManager = await managerSelect.count();
   if (hasManager) {

@@ -4,7 +4,6 @@ import type { Task } from "../api/api";
 
 type Status = "PLANNED" | "IN_PROGRESS" | "DONE" | "CANCELLED";
 
-// using Task type from api with status union
 
 const COLUMNS: { key: Status; title: string }[] = [
   { key: "PLANNED", title: "Planned" },
