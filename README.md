@@ -64,6 +64,8 @@ Você não precisa fazer nada manual - só rodar `npm run test:e2e` e tudo acont
 
 ## Backend
 
+Repo: https://github.com/wmunistd/projman-api
+
 Este projeto precisa do backend Java rodando. Vá na pasta `../prova-A3/` e rode:
 
 ```bash
